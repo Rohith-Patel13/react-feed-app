@@ -1,0 +1,10 @@
+.liContainer {
+  list-style-type: none;
+  margin: 1rem;
+  text-align: center;
+}
+.imgEmoji {
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+}

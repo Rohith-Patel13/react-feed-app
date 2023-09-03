@@ -1,0 +1,49 @@
+/* Write your CSS code here. */
+* {
+  box-sizing: border-box;
+  font-family: Roboto;
+}
+
+.bg {
+  border: 1px solid gray;
+  background-image: linear-gradient(to right, #ffeeee, #ffc0bb);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.innerCard {
+  background-color: white;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 300px;
+  padding: 1rem;
+}
+
+.innerCardHeading {
+  color: #0f172a;
+  text-align: center;
+}
+.innerCardEmojiCard {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  padding: 1rem;
+}
+
+.loveEmoji {
+  height: 50px;
+}
+.greetHead {
+  font-weight: bold;
+}
+.greetPara {
+  color: gray;
+}
